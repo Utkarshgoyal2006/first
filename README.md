@@ -1,8 +1,9 @@
 # first
-the frist ever project on github
-Author - Utkarsh goyal
-Started on- 31/1/2024
-End on - 4/2/2024
+This is my frist ever project on github
+<br>
+Author - Utkarsh goyal<br>
+Started on- 31/1/2024<br>
+End on - 4/2/2024<br>
 Made my first project!
 <br>
- it took me almost 14hrs! 
+ It took me almost 14hrs! 
