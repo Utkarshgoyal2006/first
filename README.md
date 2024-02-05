@@ -7,3 +7,5 @@ End on - 4/2/2024<br>
 Made my first project!
 <br>
  It took me almost 14hrs! 
+ <br>
+ Fixed landing page
