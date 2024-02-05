@@ -1,14 +1,119 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.main {
+  background-image: url(assets/netflixproject.jpg);
+  width: 100vw;
+  background-position: center center;
+  height: 100vh;
+  position: relative;
+}
+.Sign {
+  font-weight: bold;
+  position: relative;
+  z-index: 10;
+  margin-top: 25px;
+  color: white;
+  width: 90px;
+  height: 45px;
+  background-color: red;
+}
+.drop {
+  position: relative;
+  font-weight: bold;
+  z-index: 10;
+  margin-top: 25px;
+  color: white;
+  width: 110px;
+  padding-left: 10px;
+  height: 45px;
+  background-color: black;
+}
+.hero {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  flex-direction: column;
+  margin-top: 30vh;
+}
+.address {
+  margin-top: 27px;
+  margin-left: 35vw;
+  color: white;
+  background-color: black;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 99;
+  height: 55px;
+  font-size: 22px;
+}
+.get {
+  margin-right: 200px;
+  margin-top: -58px;
+  color: white;
+  background-color: red;
+  position: relative;
+  font-weight: bolder;
+  font-size: 22px;
+  z-index: 99;
+  width: 150px;
+  height: 55px;
+  display: flex;
+  margin-left: 55vw;
+  justify-content: center;
+  align-items: center;
+}
+.unlimited {
+  font-size: 48px;
+  color: white;
+}
+.ready {
+  font-size: 22px;
+  color: white;
+}
+.watch {
+  font-size: 22px;
+  color: white;
+}
+nav {
+  display: flex;
+  max-width: 80vw;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  height: 82px;
+}
+
+nav img {
+  width: 200px;
+  height: 100px;
+  margin-top: 25px;
+  position: relative;
+  z-index: 10;
+}
+.main .box {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  opacity: 0.44;
+  background-color: black;
+}
 body {
   height: 2800px;
   overflow-x: hidden;
   background-color: black;
 }
-header {
-  background-image: url(assets/netflixproject.jpg);
-  opacity: 0.4;
-  width: 100vw;
-  height: 95vh;
-}
+
 * {
   margin: 0;
   padding: 0;
@@ -22,56 +127,6 @@ header {
   }
 }
 
-header.navig {
-  float: left;
-
-  z-index: 10;
-}
-
-.eng {
-  float: right;
-  margin-right: 150px;
-  margin-top: 25px;
-  background-color: black;
-  color: rgb(245, 245, 245);
-  width: 100px;
-  height: 30px;
-}
-
-.sign {
-  background-color: #e50914;
-  color: whitesmoke;
-  margin-right: 20px;
-  float: right;
-  margin-top: 1;
-  width: 100px;
-  height: 30px;
-  margin-top: 25px;
-  text-decoration: solid;
-}
-.txt {
-  font-size: 52px;
-  position: static;
-  color: whitesmoke;
-  padding-top: 112px;
-  width: 858px;
-  padding-left: 348px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.text {
-  font-size: 38px;
-  color: whitesmoke;
-  padding-top: 11px;
-  width: 600px;
-  padding-left: 477px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  opacity: 1;
-}
 hr {
   height: 24vh;
 }
@@ -82,33 +137,7 @@ hr {
   opacity: 0.4;
   margin-top: 2px;
 }
-.ready {
-  color: whitesmoke;
-  padding-left: -7px;
-  font-size: 25px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  padding-top: 10px;
-}
-.email {
-  background-color: black;
-  margin-left: 510px;
-  color: white;
-  margin-top: 18px;
-  height: 38px;
-  width: 240px;
-}
-#getstarted {
-  background-color: #e50914;
-  color: white;
-  text-align: center;
-  text-decoration: solid;
-  margin-top: 18px;
-  height: 38px;
-  width: 158px;
-}
+
 .tracking-in-expand {
   min-height: auto;
   text-align: left;
@@ -173,7 +202,8 @@ hr {
   margin-top: 82px;
 }
 .video {
-  width: 1100px;
+  margin-top: 20px;
+  width: 1025px;
   padding-left: 200px;
   margin-top: -241px;
 }
@@ -520,4 +550,45 @@ footer {
   margin-bottom: 200px;
   padding-bottom: 200px;
   text-align: center;
+}
+.change {
+  display: flex;
+  justify-content: center;
+  margin-top: 50vh;
+}
+
+.language {
+  width: 80px;
+  height: 50px;
+  background-color: rgb(217, 48, 48);
+  color: white;
+  font-weight: bold;
+}
+.sign {
+  width: 80px;
+  height: 50px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-weight: bold;
+}
+.align {
+  object-fit: cover;
+}
+.p1 {
+  font-family: sans-serif;
+  size: 34px;
+  color: white;
+  font-weight: bold;
+}
+.p2 {
+  font-family: sans-serif;
+  size: 28px;
+  color: white;
+  font-weight: bold;
+}
+.p3 {
+  font-family: sans-serif;
+  size: 22px;
+  color: white;
+  font-weight: bold;
 }
