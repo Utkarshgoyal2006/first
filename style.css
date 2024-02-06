@@ -193,6 +193,8 @@ hr {
 #tv {
   padding-left: 414px;
   margin-top: -160px;
+  position: relative;
+  z-index: 10;
 }
 .divide {
   background-color: #6c6868;
@@ -200,12 +202,16 @@ hr {
   width: 100vw;
   opacity: 0.5;
   margin-top: 82px;
+  position: relative;
 }
 .video {
+  display: flex;
+  position: relative;
+  padding-bottom: 50px;
   margin-top: 20px;
-  width: 1025px;
-  padding-left: 200px;
-  margin-top: -241px;
+  width: 464px;
+  padding-left: 500px;
+  margin-top: -383px;
 }
 #a {
   color: white;
@@ -506,51 +512,6 @@ hr {
   font-weight: bold;
   margin-top: 50px;
 }
-.footer {
-  color: white;
-  font-family: sans-serif;
-  font-size: 21px;
-  font-weight: bold;
-  text-align: center;
-}
-
-footer {
-  border: 5px solid grey;
-  height: 900px;
-  width: 100vw;
-}
-.l1 {
-  list-style-type: none;
-  margin-left: 300px;
-  font-size: 22px;
-  font-family: sans-serif;
-  font-weight: bold;
-  width: 150px;
-  text-align: center;
-}
-.l2 {
-  font-size: 22px;
-  font-family: sans-serif;
-  font-weight: bold;
-  width: 150px;
-  list-style-type: none;
-  margin-left: 600px;
-  margin-bottom: 200px;
-  padding-bottom: 200px;
-  text-align: center;
-}
-.l3 {
-  height: 50px;
-  font-size: 22px;
-  font-family: sans-serif;
-  font-weight: bold;
-  width: 150px;
-  list-style-type: none;
-  margin-left: 900px;
-  margin-bottom: 200px;
-  padding-bottom: 200px;
-  text-align: center;
-}
 .change {
   display: flex;
   justify-content: center;
@@ -591,4 +552,43 @@ footer {
   size: 22px;
   color: white;
   font-weight: bold;
+}
+footer{
+  border: 5px solid grey;
+  height: 900px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.footer
+{
+  position: relative;
+  color: white;
+  font-family: sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  text-align: center;
+}
+.lastpage
+{
+  position: relative;
+  margin-top: -534px;
+  margin-left: 60px;
+  margin-right: 40px;
+}
+.lastpage2
+{
+  position: relative;
+  margin-left: 632px; 
+  margin-top: -74px ;
+  margin-right: 60px;
+}
+.lastpage3
+{
+  position: relative;
+  margin-left: 318px;
+  margin-top: -70px;
+  margin-right: 60px;
 }
